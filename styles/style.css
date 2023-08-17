@@ -112,6 +112,7 @@ body{
   display: flex;
   gap:20px;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .cards-inner{
@@ -189,4 +190,77 @@ body{
 .add-bucket{
   border: none;
   cursor: pointer;
+}
+
+.pages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.page-link{
+  text-decoration: none;
+  color: #828282;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.page-link:hover{
+  color: #219653;
+}
+
+.arrow-left::before{
+  content: '';
+  background-image: url('../images/arrow-leftblack.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.arrow-right::after{
+  content: '';
+  background-image: url('../images/arrow-rightblack.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.footer{
+  padding-top: 102px;
+  padding-bottom: 130px;
+  background-color:#333333;
+}
+
+.info-footer-link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.info-footer-link:not(:last-child){
+  margin-right: 47px;
+}
+
+.footer-content{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+}
+
+.media-btn{
+  flex: 1;
+  text-align: center;
+  display: inline-block;
+}
+
+.tel-footer{
+  color: #fff;
+  flex: 1;
+  text-align: right;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+
 }
