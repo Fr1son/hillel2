@@ -252,7 +252,6 @@ body{
 .media-btn{
   flex: 1;
   text-align: center;
-  display: inline-block;
 }
 
 .tel-footer{
